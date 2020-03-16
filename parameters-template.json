@@ -1,0 +1,11 @@
+[
+  {
+    "ParameterKey": "DomainName",
+    "ParameterValue": "example.com"
+  },
+  {
+    "ParameterKey": "HostedZoneName",
+    "ParameterValue": "example.com."
+  }
+]
+
