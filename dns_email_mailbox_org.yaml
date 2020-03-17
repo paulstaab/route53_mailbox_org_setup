@@ -85,7 +85,7 @@ Resources:
       TTL: !Ref TTL 
       ResourceRecords:
       - !Sub
-          - '"v=DMARC1;p=none;rua=mailto:postmaster@${Domain};ruf=mailto:postmaster@${Domain}"'
+          - '"v=DMARC1;p=none;ruf=mailto:postmaster@${Domain}"'
           - { Domain: !Ref DomainName }
 
   AutoConfigCnameRecord:
